@@ -17,22 +17,6 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorCustomizations": {
-    // "editor.background": "#313445",
-    // "editorWidget.background": "#1f2738bb",
-    // "editorHoverWidget.background": "#2d3750",
-    // "sideBar.background": "#313445",
-    // "sideBar.foreground": "#fff",
-    // "sideBarSectionHeader.background": "#313445",
-    // "sideBarTitle.background": "#33313e",
-    // "terminal.background": "#313445",
-    // "editorLineNumber.activeForeground": "#586374",
-    // "editorLineNumber.dimmedForeground": "#586374",
-    // "scrollbarSlider.activeBackground": "#6b6f87",
-    // "scrollbarSlider.background": "#6b6f87",
-    // "scrollbarSlider.hoverBackground": "#6b6f87"
-    // "sideBarTitle.background": "#2F2B55"
-  },
   "chat.editor.fontWeight": "bold",
   "editor.fontSize": 17,
   "apc.sidebar.titlebar": { "fontSize": 12 },
@@ -65,7 +49,7 @@
   "workbench.iconTheme": "catppuccin-macchiato",
   "workbench.sash.size": 5,
   "workbench.sideBar.location": "right",
-  "editor.matchBrackets": false,
+  "editor.matchBrackets": "never",
   "editor.guides.indentation": false,
   "files.autoSaveDelay": 1000,
   "workbench.editor.showTabs": "single",
@@ -215,22 +199,15 @@
       "user.name": "Aditya"
     }
   ],
-  "dart.flutterSdkPath": "C:\\flutter",
   "go.formatTool": "gofmt",
   "go.lintTool": "golangci-lint",
   "go.lintFlags": ["--disable=UnusedVar"],
-  "easyTerminalZoom.step": 6,
-  "dotnetAcquisitionExtension.enableTelemetry": false,
   "update.mode": "manual",
   "editor.guides.bracketPairs": false,
   "diffEditor.experimental.showMoves": true,
-  "omnisharp.useEditorFormattingSettings": false,
-  "dotnet.server.useOmnisharp": true,
   "editor.formatOnType": true,
-  "razor.format.codeBlockBraceOnNextLine": true,
   "thunder-client.defaultURL": "http://localhost:",
   "workbench.settings.applyToAllProfiles": ["thunder-client.defaultURL"],
-  "console-ninja.showWelcomeMessageInTools": false,
   "go.showWelcome": false,
   "python.REPL.enableREPLSmartSend": false,
   "redhat.telemetry.enabled": true,
@@ -253,7 +230,6 @@
     "*.s3db": "${capture}.${extname}-*"
   },
   "go.toolsManagement.autoUpdate": true,
-  "makefile.configureOnOpen": false,
   "git-autoconfig.ignoreRootList": [
     "D:/GolanMicroservice",
     "D:/GO_PROJECTS/GoLink.smol"
@@ -262,7 +238,6 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.fontFamily": "Iosevka SS09 Light",
   "editor.fontVariations": false,
-  "oneDarkPro.italic": false,
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
       "source": "PowerShell",
@@ -287,5 +262,6 @@
   "terminal.integrated.mouseWheelZoom": true,
   "files.autoSave": "afterDelay",
   "explorer.confirmDragAndDrop": false,
-  "terminal.integrated.fontSize": 15
+  "terminal.integrated.fontSize": 11,
+  "apc.font.family": "Iosevka SS09 Light"
 }
